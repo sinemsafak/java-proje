@@ -13,7 +13,7 @@ public class soru3 {
         int sayac = scann.nextInt();
         int tahmin1 = 0;
         System.out.println("1 ile 30 arasında bir sayı tahmini gir");
-
+        scann.close();
         tahminler(tahmin1, sayı1, sayac);
 
     }
